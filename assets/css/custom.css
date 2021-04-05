@@ -1088,6 +1088,208 @@ color: #291C64;
 	text-decoration: none;
 	
 }
+.new-benefit-h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+	margin-top: 15px;
+}
+.new-benefit {
+    background: #ECECF5;
+    border-radius: 8px;
+    padding: 30px;
+    position: relative;
+}
+.new-benefit-h3 img {
+    background: #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
+.new-benefit-h3 span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.new-benefit .close{
+	position: absolute;
+	top:-10px;
+	right: 10px;
+	width: 14px;
+	height: 14px;
+	background: url(../images/close.png) no-repeat left center;
+	background-size:cover; 
+}
+.subscription-box{
+	background: #F6F7FB;
+    border-radius: 8px;
+    padding: 30px;
+    position: relative;
+    margin-top: 30px;
+}
+.subscription-box h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 132%;
+    color: #291C64;
+    margin-bottom: 35px;
+}
+.subscription-box table th{
+	font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 170%;
+color: #291C64;
+background: #ECECF5;
+border-top:0px;
+}
+.subscription-box table td{
+	color: #291C64;
+}
+.edit-icon{
+	width: 16px;
+	height: 16px;
+	background: url(../images/edit.png) no-repeat left center;
+	background-size:cover; 
+	display: inline-block;
+	margin-left: 10px;
+}
+.del-icon{
+	width: 12px;
+	height: 16px;
+	background: url(../images/delete.png) no-repeat left center;
+	background-size:cover; 
+	display: inline-block;
+	margin-left: 10px;
+	float: right;
+}
+.downword-icon{
+	width: 24px;
+	height: 24px;
+	background: url(../images/downward.png) no-repeat left center;
+	background-size:cover; 
+	display: inline-block;
+	margin-left: 10px;
+	float: right;
+}
+.user-edit img {
+    border-radius: 50%;
+}
+
+.btn-cancel{
+	background: #ECECF5;
+	border-radius: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 170%;
+	text-align: center;
+	color: #291C64;
+	padding: 3px 12px;
+	float: right;
+}
+
+.btn-cancel:hover,.btn-cancel:focus{
+	text-decoration: none;
+		color: #291C64;
+}
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: transparent;
+}
+.table-striped tbody tr:nth-of-type(2n+2) {
+    background-color: #fff;
+}
+
+.table td, .table th{
+	border-top:0px; 
+}
+.table thead th{
+	border-bottom: 0px;
+}
+.user-edit span{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #BFBDCB;
+	margin-left: 5px;
+}
+
+.f-normal{
+	font-weight: normal;
+}
+.btn-new-user{
+background: #50CDD0;
+border-radius: 18px;
+padding: 7px 15px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+}
+.btn-new-user:hover, .btn-new-user:focus{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.user-name img{
+	border-radius: 100%;
+	max-width: 32px;
+	margin-right: 10px;
+}
+.last-activity {
+    margin-right: 15px;
+    display: inline-block;
+}
+.manage-box{
+	padding: 0px;
+	background: transparent;
+}
+
+
+.manage-box .table-striped tbody tr:nth-of-type(2n+2) {
+    background-color: #F6F7FB;
+}
+
+
+.btn-help{
+	background: #50CDD0;
+	border-radius: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 7px 15px;
+	display: inline-block;
+}
+.btn-help:focus, .btn-help:hover{
+	color: #FFFFFF;
+}
+.ask-question{
+	background: #ECECF5;
+border-radius: 8px;
+padding: 20px;
+
+}
+#downword h3, #downword h6{
+	color: #291C64;
+	margin-bottom: 0px;
+}
+.ask-question h3{
+	font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+color: #291C64;
+margin: 0;
+margin-top: 5px;
+}
+
 
 
 @media only screen and (min-width: 1920px) 
@@ -1120,8 +1322,57 @@ color: #291C64;
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
 
-
-
+.tabs-vertical .nav-tabs {
+    border-bottom: none;
+    display: block;
+    height: 100%;
+    float: none;
+    padding: 0;
+    vertical-align: top;
+    min-width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 320px;
+}
+.tabs-left .nav-tabs > li {
+    margin-right: 10px;
+}
+.tabs-vertical .nav-tabs > li {
+    display: inline-block;
+}
+.account .tabs-left .nav-tabs > li .nav-link {
+	width: auto;
+	display: inline-block;
+}
+.desktop-header .nav-link {
+    display: inline-block;
+    padding: .5rem .3rem;
+    font-size: 	14px;
+}
+.dropdown .btn {
+    padding: .5rem .3rem;
+    font-size: 	14px;
+}
+.btn-change.btn-subscribe {
+    max-width: 87px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 7px 12px;
+    margin-top: 12px;
+}
+#newsletterFrm .input-group .form-control {
+    height: 40px;
+    width: 100%;
+    border-radius: 2.5rem !important;
+}
+#newsletterFrm .input-group-rounded .input-group-append .btn {
+    border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+    left: 0;
+    width: 100%;
+    top: 5px;
+}
 
 }
 
@@ -1365,6 +1616,23 @@ color: #291C64;
     text-align: center;
     width: 100%;
 }
+.new-benefit .close {
+    position: absolute;
+    top: -86px;
+}
+.table thead th {
+    border-bottom: 0px;
+    vertical-align: middle;
+}
+.table thead th:last-child {
+    min-width: 200px;
+}
+.btn-light-new.del-user{
+		display: inline-block;
+}
+
+
+
 
 
 }
