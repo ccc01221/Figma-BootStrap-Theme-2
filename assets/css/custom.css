@@ -45,7 +45,7 @@ display: inline-block;
 	border: none;
 }
 
-.btn-change.btn-subscribe {
+.btn-primary.btn-subscribe {
     max-width: 145px;
     text-align: center;
     color: #fff;
@@ -281,7 +281,7 @@ line-height: 150%;
 .my-32{
 	margin: 32px 0;
 }
-.btn-change{
+.btn-primary{
 background: #50CDD0;
 border-radius: 18px;
 font-style: normal;
@@ -292,11 +292,17 @@ display: inline-block;
 text-align: center;
 color: #FFFFFF;
 padding: 10px 30px;
+border: none;
+box-shadow: none;
 }
-.btn-change:hover,.btn-change:focus{
+.btn-primary:hover,.btn-primary:focus,.btn-primary:not(:disabled):not(.disabled):active:focus{
 	background: #39B6B9;
 	color: #fff;
+	text-decoration: none;
+	box-shadow: none;
+	border: none;
 }
+
 .account__form .form-group {
   position: relative;
   margin-bottom: 1.5rem;
@@ -516,7 +522,7 @@ margin-top: 8px;
   justify-content: space-between;
   
 }
-.btn-light-new{
+.btn-light{
 	background: #F6F7FB;
 	border-radius: 18px;
 	font-style: normal;
@@ -582,6 +588,9 @@ font-size: 16px;
 line-height: 150%;
 color: #291C64;
 }
+.btn-edit:hover, .btn-edit:focus{
+	color: #291C64;
+}
 .btn-delete{
 	display: inline-block;
 	vertical-align: middle;
@@ -591,6 +600,9 @@ font-weight: normal;
 font-size: 16px;
 line-height: 150%;
 color: #9994B1;
+}
+.btn-delete:hover, .btn-delete:focus{
+	color: #9994B1;
 }
 .address-box h4{
 	font-style: normal;
@@ -1516,13 +1528,13 @@ margin-top: 5px;
     min-width: 36px;
 }
 
-.btn-light-new{
+.btn-light{
 	display: none;
 }
 .city-name {
     margin: 12px 0;
 }
-.delete-add .btn-light-new {
+.delete-add .btn-light {
     display: inline-block;
 }
 .delete-add .btn-change {
@@ -1627,7 +1639,7 @@ margin-top: 5px;
 .table thead th:last-child {
     min-width: 200px;
 }
-.btn-light-new.del-user{
+.btn-light.del-user{
 		display: inline-block;
 }
 
