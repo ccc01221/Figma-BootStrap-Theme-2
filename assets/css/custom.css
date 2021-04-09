@@ -1,11 +1,14 @@
 
 /**********Header start here ********/
 body {
-    color: #777;
+    color: #291C64;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     letter-spacing: .2px;
+}
+h4{
+	 color: #291C64;
 }
 .desktop-header .nav-list {
     padding: 0;
@@ -1301,6 +1304,19 @@ color: #291C64;
 margin: 0;
 margin-top: 5px;
 }
+.text-dark{
+	color: #291C64 !important;
+}
+.new-benefit-h3 {
+	margin-bottom: 15px;
+}
+.row.user-box {
+    background: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+
+}
 
 
 
@@ -1528,9 +1544,9 @@ margin-top: 5px;
     min-width: 36px;
 }
 
-.btn-light{
+/*.btn-light{
 	display: none;
-}
+}*/
 .city-name {
     margin: 12px 0;
 }
@@ -1641,8 +1657,177 @@ margin-top: 5px;
 }
 .btn-light.del-user{
 		display: inline-block;
+		width: 100%;
 }
 
+
+.digital-media.dm {
+    background: #fff;
+    padding: 30px 0 0 30px;
+}
+.digital-media  .issue-box {
+    background: #F6F7FB;
+    border-radius: 8px 0 0 8px;
+    padding-right: 0px;
+ 
+}
+.issue-list {
+   min-width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 320px;
+}
+.issue-box h4 {
+    white-space: normal;
+}
+.issue-list li {
+    margin-right: 0;
+    width: 66%;
+}
+
+.cdnFooter {
+    background: #291C64;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+.cdnFooter  #sub-menu{
+	text-align: left;
+}
+#sub-menu ul li::after{
+	display: none;
+}
+#sub-menu ul li {
+    display: inline-block;
+    margin: 0 0px;
+    width: 49%;
+    text-align: center;
+}
+
+
+
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { margin-bottom: 15px; padding: 10px;}
+	
+	table td { 
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 12px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		font-weight: normal;
+	}
+	
+	/*
+	Label the data
+	*/
+	.table1 td:nth-of-type(1):before { content: ""; }
+	.table1 td:nth-of-type(2):before { content: "Expiration:"; }
+	.table1 td:nth-of-type(3):before { content: "Next Billing:"; }
+	.table1 td:nth-of-type(4):before { content: "Users:"; }
+	.table2 td:nth-of-type(2):before { content: "Expired:"; }
+	.table2 td:nth-of-type(3):before { content: "Users:"; }
+	.table3 td:nth-of-type(2):before { content: "Role:"; }
+	.table3 td:nth-of-type(3):before { content: "E-mail:"; }
+	.table3 td:nth-of-type(4):before { content: "Last Activity:"; }
+	.table4 td:nth-of-type(2):before { content: "Type:"; }
+	.table4 td:nth-of-type(3):before { content: "Location:"; }
+	.table4 td:nth-of-type(4):before { content: "Last Activity:"; }
+
+	.table5 td:nth-of-type(3):before { content: "Price:"; }
+	.table5 td:nth-of-type(4):before { content: "Payment:"; }
+
+.subscription-box table td {
+   padding-left: 50%;
+    font-weight: bold;
+}
+.subscription-box table td:first-child {
+    padding-left: 0%;
+}
+.subscription-box table.table5 td:nth-child(2) {
+    padding-left: 0%;
+}
+.subscription-box table.table5 td:nth-child(1) {
+    border-bottom: 1px solid #eee;
+}
+.subscription-box {
+    padding: 20px 20px;
+}
+.subscription-box .table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #fff;
+}
+.subscription-box.manage-box .table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #F6F7FB;
+}
+.btn-cancel{
+	width: 100%;
+position: absolute;
+left: 0;
+bottom: 0;
+padding: 5px 15px;
+}
+.subscription-box table td:last-child {
+    padding-bottom: 50px;
+}
+.subscription-box.manage-box  {
+    padding: 15px 5px;
+    word-wrap: anywhere;
+}
+.subscription-box.manage-box table td:last-child {
+    padding-bottom: 0px;
+}
+
+.modal-body  br{
+	display: none;
+}
+.btn-mobile-plus {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 32px;
+    position: fixed;
+	bottom: 15px;
+	right: 15px;
+	z-index: 9;
+}
+.btn-mobile-plus span {
+    display: none;
+}
+.btn-primary.width-95 {
+    width: 100%;
+    padding: 7px 12px !important;
+    font-size: 14px !important;
+}
+.btn-primary{
+	padding: 10px 25px;
+}
+.ask-question .btn-primary{
+	padding: 10px 20px;
+	font-size: 14px;
+}
 
 
 
