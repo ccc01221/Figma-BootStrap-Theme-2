@@ -2325,27 +2325,268 @@ margin: 30px 0;
     border-radius: 0 0 24px 24px;
 }
 
+.dealer-list{
+	background: #ECECF5;
+	padding: 20px 0;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.deal-box{
+/* Background */
+background: #F6F7FB;
+border-radius: 8px;
+padding: 10px 15px;
+display: inline-block;
+margin: 0 5px;
+}
 
+.deal-box .material-icons-outlined{
+	font-size: 16px;
+	vertical-align: sub;
+}
 
+.color-green{
+	color: #7ED321;
+}
+.color-red{
+	color: #E42526;
+}
 
+.directory h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	text-align: center;
+	color: #291C64;
+}
+.directory{
+	padding: 50px 0;
+	background-color: #f6f7fb;
+}
 
+.directory{
 
+}
 
+.card.tab-box {
+    background: transparent;
+    border: 0px;
+}
+.card.tab-box .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 0px;
+}
+.nav-tabs .nav-link{
+ 	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64 !important;
+	padding: 10px 15px;
+	border:1px solid #ECECF5  !important;
+	border-radius: 8px !important;
+	box-shadow: none !important;
+	margin: 0 5px !important; 
+}
+.nav-tabs{
+	border-bottom: 0px;
+}
 
+.card.tab-box .nav-tabs .nav-item {
+    margin-bottom: -1px;
+    text-align: center;
+    display: inline-block;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #ECECF5;
+    border-color: #ECECF5 #ECECF5 #ECECF5;
+    font-weight: bold;
+}
 
+.tab-box .tab-content {
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
 
+.d-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.d-icon {
+    background: #ECECF5;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.d-social {
+    text-align: right;
+    margin-bottom: 15px;
+}
+.d-social span {
+    background: #291C64;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-left: 7px;
+    display: inline-block;
+}
 
+.d-box h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+.d-ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.d-ul li{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	color: #9994B1;
+	margin-bottom: 10px;
+}
 
+.d-ul li span{
+	background: rgba(80, 205, 208, 0.1);
+	color: #50CDD0;
+	padding: 7px;
+	font-size: 16px;
+	border-radius: 50%;
+	margin-right: 10px;
 
+}
 
+.no-serach{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 124%;
+	text-align: center;
+	color: #291C64;
+	margin-bottom: 30px;
+}
 
+.no-serach-p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64;
+}
 
+.single-image h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+}
+.tags {
+    list-style: none;
+   padding: 0px;
+}
+.tags li {
+    display: inline-block;
+}
+.tags li a{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #291C64;
+	padding: 10px 15px;
+	background: #ECECF5;
+	border-radius: 100px;
+	display: inline-block;
+	margin: 5px;
+}
+.single {
+    padding: 50px 0;
+    background-color: #f6f7fb;
+}
 
+.back-link{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #291C64;
+	text-decoration: none;
+}
+.back-link span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.single-box {
+	padding: 50px;
+	background: #fff;
+	border-radius: 25px;
+}
+.single-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #291C64;
+}
 
+.contact-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    min-height: 230px;
+}
 
+.contact-box h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
 
-
-
+.contact-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #291C64;
+}
+.contact-box h4 span {
+    background: rgba(80, 205, 208, 0.1);
+    color: #50CDD0;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.contact-box p span {
+    margin-right: 10px;
+    background-color: #291C64;
+    padding: 7px;
+    color: #fff;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
 
 
 @media only screen and (min-width: 1920px) 
