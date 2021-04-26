@@ -154,7 +154,7 @@
                  Directory
                 </a>
               </p>
-              <p>
+              <p class="text-center text-sm-left">
                 <img src="assets/images/single-dealer.png" alt="single-dealer.png" class="img-fluid">
               </p>
               <h3>
@@ -309,6 +309,23 @@
  
   <script>
     $(document).ready(function(){
+    
+const toggleButton = document.querySelector(".toggle-menu");
+const navBar = document.querySelector(".nav-bar1");
+const mheader = document.querySelector(".t-menu");
+toggleButton.addEventListener("click", () => {
+  navBar.classList.toggle("toggle");
+  mheader.classList.toggle("toggle");
+});
+
+$("#list-more").click(function(){
+  $(".list-less").hide();
+  $(".list-more").show();
+})
+$("#list-less").click(function(){
+  $(".list-less").show();
+  $(".list-more").hide();
+})
     
     });
 

@@ -158,8 +158,8 @@
             </p>
        </div>
         </div>
-      <div class="col-sm-5 offset-col-sm-1">
-      
+      <div class="col-sm-5 offset-col-sm-1 text-right">
+        <img src="assets/images/cpg-bg.png" alt="cpg-bg.png" class="cpg-bg img-fluid d-sm-none d-block">
       </div>
     </div>
 
@@ -364,7 +364,22 @@
     });
 
 
+const toggleButton = document.querySelector(".toggle-menu");
+const navBar = document.querySelector(".nav-bar1");
+const mheader = document.querySelector(".t-menu");
+toggleButton.addEventListener("click", () => {
+  navBar.classList.toggle("toggle");
+  mheader.classList.toggle("toggle");
+});
 
+$("#list-more").click(function(){
+  $(".list-less").hide();
+  $(".list-more").show();
+})
+$("#list-less").click(function(){
+  $(".list-less").show();
+  $(".list-more").hide();
+})
 
     });
 

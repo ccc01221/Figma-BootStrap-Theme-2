@@ -147,7 +147,7 @@
     <section class="advertise contact">
     <div class="container">
       <div class="row justify-content-center align-items-center">
-        <div class="col-sm-7 pr-5">
+        <div class="col-sm-7 pr-sm-5">
           <div class="advertise-left">
             <h1>Contact Us</h1>
             <h2>Your Feedback Matters</h2>
@@ -185,11 +185,11 @@
          
           <div class="form-group">
             <input type="text" id="e-mail" name="email" class="form-control" required="">
-            <label class="form-control-placeholder" for="e-mail">E-mail</label>
+            <label class="form-control-placeholder" for="email">E-mail</label>
           </div>
            <div class="form-group">
-            <input type="text" id="e-mail" name="email" class="form-control" required="">
-            <label class="form-control-placeholder" for="e-mail">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control" required="">
+            <label class="form-control-placeholder" for="subject">Subject</label>
           </div>
            <div class="form-group">
                 <textarea id="description" name="description" class="form-control" style="min-height: 100px; padding-top: 12px;"></textarea>
@@ -305,7 +305,25 @@
  
   <script>
     $(document).ready(function(){
-    
+   
+const toggleButton = document.querySelector(".toggle-menu");
+const navBar = document.querySelector(".nav-bar1");
+const mheader = document.querySelector(".t-menu");
+toggleButton.addEventListener("click", () => {
+  navBar.classList.toggle("toggle");
+  mheader.classList.toggle("toggle");
+});
+
+
+$("#list-more").click(function(){
+  $(".list-less").hide();
+  $(".list-more").show();
+})
+$("#list-less").click(function(){
+  $(".list-less").show();
+  $(".list-more").hide();
+})
+
     });
 
 

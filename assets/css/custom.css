@@ -2588,6 +2588,246 @@ margin: 0 5px;
     border-radius: 50%;
 }
 
+.subscribe-single {
+    padding: 50px 0;
+    background-color: #f6f7fb;
+    background-image: url(../images/rectangle134.png);
+    background-position:top 150px right;
+}
+
+.subscribe-ul{
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 30px;
+}
+.subscribe-ul li a{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64;
+	padding: 7px 15px;
+	border:1px solid #ECECF5;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 0 5px;
+}
+.subscribe-ul li{
+	display: inline-block;
+}
+.subscribe-ul li a.active{
+	background: #ECECF5;
+	font-weight: bold;
+}
+.new-benefit2-logo img {
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.new-benefit2 h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+	margin-bottom: 0px;
+}
+.new-benefit2 p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+	margin-bottom: 5px;
+}
+
+.new-benefit2{
+	background: #ECECF5;
+	border-radius: 8px;
+	padding: 20px;
+}
+.new-benefit2-logo {
+    vertical-align: sub;
+    display: inline-block;
+}
+
+.industry{
+	padding: 30px 0 50px;
+    background-color: #f6f7fb;
+}
+.industry h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+}
+.industry h4{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #756D98;
+	margin-bottom: 40px;
+}
+.industry h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+
+.industry p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #291C64;
+	margin-bottom: 20px;
+}
+.order-now{
+	padding: 30px 0 50px;
+    background-color: #f6f7fb;
+}
+
+.order-now h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+}
+
+.order-box{
+	background: #FFFFFF;
+	border-radius: 16px;
+	padding: 30px;
+	text-align: center;
+}
+.order-box h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	text-align: center;
+	color: #291C64;
+}
+.hr-1{
+background: #F6F7FB;
+border-radius: 100px;
+height: 8px;
+margin: 30px auto;
+max-width: 70%;
+}
+.year{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64;
+	background: #F6F7FB;
+border-radius: 100px;
+padding: 10px 15px;
+margin-bottom: 20px;
+}
+.old-price{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+	text-decoration-line: line-through;
+	color: #BFBDCB;
+	margin-bottom: 10px;
+}
+.new-price{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 124%;
+	text-align: center;
+	color: #291C64;
+	margin-bottom: 25px;
+}
+.online-note{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #9994B1;
+	margin: 50px 0;
+}
+.white-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.white-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #291C64;
+	margin-bottom: 0px;
+}
+
+.grey-box{
+	background: #ECECF5;
+	border-radius: 8px;
+	padding: 25px;
+}
+.grey-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #291C64;
+	margin-bottom: 0px;
+}
+
+.white-box h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: right;
+	color: #291C64;
+	margin-bottom: 30px;
+}
+.white-box h6{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #756D98;
+	margin-bottom: 30px;
+}
+.pd-30{
+	padding: 60px 30px;
+	border-radius: 15px;
+}
+.h4-heading{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+
+.benifits h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 132%;
+    color: #291C64;
+}
+
 
 @media only screen and (min-width: 1920px) 
 {
@@ -3104,8 +3344,259 @@ padding: 5px 15px;
     flex: 0 0 100%;
     max-width: 100%;
 }
+.subscribe-ul {
+    white-space: nowrap;
+    overflow: auto;
+}
+.advertise.subscribe-single{
+	background-image: none
+}
+.advertise h2{
+	padding-right: 0px;
+}
+.new-benefit2 p{
+	margin-top: 15px;
+}
+.new-benefit2{
+	margin: 5px;
+}
+.order-box{
+	margin-bottom: 15px;
+}
+.order-now h3 {
+    font-size: 24px;
+    text-align: left;
+}
+.grey-box {
+    margin-top: 15px;
+}
+.pd-30 {
+    padding: 30px 30px;
+    margin-bottom: 15px;
+}
+.h4-heading {
+    margin-top: 20px;
+}
+.single-box {
+    padding: 30px;
+}
+.contact-box {
+   	border-radius: 25px;
+    min-height: auto;
+    margin-bottom: 15px;
+}
 
+.tab-box .card-body {
+    padding: 0rem;
+}
 
+#myTab{
+	flex-wrap: nowrap;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.advertise h1,.advertise-left > p{
+	padding-right: 0px;
+}
+.pricing-icon img {
+    max-width: 120px;
+}
+.advertise.price-page {
+    background-image: none;
+}
+.value-img span{
+	max-width: 100%;
+}
+.value-content h4 {
+  margin-top: 30px;
+}
+
+.value {
+    padding: 15px 0;
+}
+.value-box {
+	margin-bottom: 15px;
+}
+.advertise.subscribe-page {
+    background-image: none;
+}
+.app-icon {
+    margin-bottom: 30px;
+}
+.advertise.m-app {
+    background-image: url(../images/m-app.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 97%;
+    min-height: 450px;
+    padding-top: 220px;
+}
+.row-wrap {
+    flex-wrap: nowrap;
+    overflow: auto;
+    white-space: normal;
+}
+.reasons-box{
+	width: 150px;
+}
+.award-box {
+    padding: 30px;
+ }
+.tool-box {
+    padding: 20px;
+    margin: 5px;
+}
+.app-icon img {
+    max-width: 120px;
+}
+.advertise.contact {
+    background-image: none;
+}
+.advertise-form{
+	margin-top: 15px;
+}
+.panel-group .panel .panel-heading h4 a{
+	font-size: 18px;
+	padding-right: 30px;
+	position: relative;
+}
+.panel-group .panel .panel-heading h4 a i {
+    position: absolute;
+    right: -14px;
+    top: 14px;
+}
+.about.cpg {
+    background-image: none;
+}
+
+.cpg-box {
+    padding: 25px;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.cpg-box h3 br{
+	display: none;
+}
+.about{
+	background-image: none;
+}
+.about h1{
+	padding-right: 0px;
+}
+.about h2{
+	padding-right: 0px;
+}
+.timeline {
+    padding: 20px 15px;
+}
+.timeline h3{
+	padding-right: 0px;
+}
+.left-box{
+	padding: 10px 20px;
+	font-size: 14px;
+}
+.t-line::after {
+    right: 4px;
+}
+.t-line::before {
+    right: -5px;
+ }
+.right-box{
+	padding: 20px;
+}
+.img-box {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.team{
+	background-image: none;
+}
+.price-para{
+	text-align: left;
+}
+.price-para br{
+	display: none;
+}
+
+.ord-2{
+	order: 2;
+
+}
+.advertise{
+	background-image: none;
+}
+.advertise-box{
+	margin-bottom: 15px;
+}
+.advertise-logo img {
+    margin: 0 5px;
+    max-width: 120px;
+}
+.benifits .col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.benefits-box {
+    background: #fff;
+    padding: 24px;
+    border-radius: 25px;
+    min-height: 300px;
+}
+.advertise-rate h4{
+	margin-bottom: 0px;
+}
+.rate-box {
+    margin-bottom: 15px;
+}
+.rate-box h5::before {
+	left: 43%;	
+}
+.mail-ins {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #291C64;
+    text-align: left;
+    padding-left: 30px;
+    background: #fff;
+    padding-top: 10px;
+    width: 98%;
+	border-radius: 15px 15px 0 0;
+}
+.call-4{
+	border-radius: 0px;
+	text-align: left;
+	border-radius: 0 0 15px 15px;
+}
+
+.camera-ready {
+    padding: 30px;
+}
+.email-blast {
+    padding: 30px;
+    border-radius: 25px;
+}
+.advertise-rate h4 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+}
+.rate-box.bg-transparent h5 {
+    display: none;
+}
+.rate-box.bg-transparent ul {
+    display: none;
+}
+.advertise h2 {
+    font-size: 24px;
+}
 
 }
 

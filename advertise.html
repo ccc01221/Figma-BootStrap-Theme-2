@@ -147,7 +147,7 @@
     <section class="advertise">
     <div class="container">
       <div class="row">
-        <div class="col-sm-7 pr-5">
+        <div class="col-sm-7 pr-sm-5">
           <div class="advertise-left">
             <h1>Advertise With CDN & the Greysheet</h1>
             <h2>We offer the best access to the top dealers, collectors, & investors in numismatics.</h2>
@@ -188,7 +188,7 @@ arrow_downward
           <h3>Fill Out This Easy Form to Get Started</h3>
           <p>CDN offers you many, affordable ways to promote your coin business to other coin professionals! Nobody offers you better access to this audience. Please fill out the form, or click here to learn more.</p>
           <div class="form-group row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 mb-3 mb-sm-0">
             <input type="text" id="fname" name="fname" class="form-control" required="">
             <label class="form-control-placeholder" for="fname">Name</label>
           </div>
@@ -249,7 +249,7 @@ arrow_downward
             <h3 class="text-center">Benefits of Advertising With Greysheet</h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-wrap">
           <div class="col-md-3">
             <div class="benefits-box">
               <div class="benefits-icon">
@@ -546,6 +546,24 @@ arrow_downward
   <script>
     $(document).ready(function(){
     
+      const toggleButton = document.querySelector(".toggle-menu");
+const navBar = document.querySelector(".nav-bar1");
+const mheader = document.querySelector(".t-menu");
+toggleButton.addEventListener("click", () => {
+  navBar.classList.toggle("toggle");
+  mheader.classList.toggle("toggle");
+});
+
+
+$("#list-more").click(function(){
+  $(".list-less").hide();
+  $(".list-more").show();
+})
+$("#list-less").click(function(){
+  $(".list-less").show();
+  $(".list-more").hide();
+})
+
     });
 
 

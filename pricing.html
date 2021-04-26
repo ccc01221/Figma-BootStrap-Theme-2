@@ -171,10 +171,10 @@
       </div>
        <div class="pricing-box">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-4">
             <img src="assets/images/p-logo5.png" alt="p-logo5" class="img-fluid">
           </div>
-          <div class="col-sm-8 ">
+          <div class="col-sm-8 col-8">
             <h4 class="mb-0">Look for the CDN logo wherever you shop for coins & paper money</h4>
           </div>
         </div>
@@ -229,7 +229,7 @@ Don't take our word for it. Major industry players like Heritage Auctions, Stack
         </div>
       </div>
        <div class="col-sm-5 offset-sm-1">
-        <div class="pricing-box">
+        <div class="pricing-box mt-3 mt-sm-0">
         <img src="assets/images/CPG3-1.svg" alt="p-logo5" class="img-fluid">
       </div>
       </div>
@@ -381,6 +381,24 @@ Don't take our word for it. Major industry players like Heritage Auctions, Stack
   <script>
     $(document).ready(function(){
     
+const toggleButton = document.querySelector(".toggle-menu");
+const navBar = document.querySelector(".nav-bar1");
+const mheader = document.querySelector(".t-menu");
+toggleButton.addEventListener("click", () => {
+  navBar.classList.toggle("toggle");
+  mheader.classList.toggle("toggle");
+});
+
+
+$("#list-more").click(function(){
+  $(".list-less").hide();
+  $(".list-more").show();
+})
+$("#list-less").click(function(){
+  $(".list-less").show();
+  $(".list-more").hide();
+})
+
     });
 
 
