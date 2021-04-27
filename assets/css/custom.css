@@ -2828,6 +2828,172 @@ margin-bottom: 20px;
     color: #291C64;
 }
 
+.tag-box .tag1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #291C64;
+    padding: 7px 15px;
+    background: #ECECF5;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 5px;
+}
+.tag-box .tag2{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 170%;
+	text-align: center;
+	color: #291C64;
+}
+.tag-box {
+    margin: 15px 0;
+}
+.event-tab .d-box{
+	padding: 15px;
+}
+.event-tab h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #9994B1;
+}
+.april-9{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #50CDD0;
+}
+.discription-box{
+	background: #fff;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.discription {
+    background-color: #f6f7fb;
+    padding: 50px 0;
+}
+.discription h5{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+.discription h6{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #291C64;
+}
+
+.discription p b{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #291C64;
+}
+
+.discription .d-social span {
+   	width: 28px;
+    height: 28px;
+    text-align: center;
+}
+.discription .d-social {
+     float: right;
+}
+
+.coming-event{
+	background-color: #f6f7fb;
+    padding: 50px 0;
+}
+
+.coming-event h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+}
+.btn-view{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	color: #50CDD0;
+}
+.i-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.i-icon {
+    padding: 30px;
+    background: #F6F7FB;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.i-date{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	color: #9994B1;
+	margin-bottom: 15px;
+}
+.i-box h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+.i-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+}
+
+.i-icon span {
+    background: rgba(246, 246, 246, 0.7);
+    color: rgb(80, 205, 208);
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.i-box.i-grey {
+    background: #ECECF5;
+}
+.i-box.i-grey .i-icon{
+	 background: #ECECF5;
+	 padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 1920px) 
 {
