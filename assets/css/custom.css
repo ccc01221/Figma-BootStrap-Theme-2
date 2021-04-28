@@ -2982,8 +2982,39 @@ margin-bottom: 20px;
 	 padding: 20px 0px;
 }
 
-
-
+.pagination li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #291C64;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ECECF5;
+    min-width: 40px;
+    display: inline-block;
+    min-height: 40px;
+    line-height: 1.2;
+    margin: 0 5px;
+}
+.pagination li a.active{
+	background: #ECECF5;
+}
+.show-article a{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64;
+	 border-radius: 12px;
+    border: 1px solid #ECECF5;
+    min-width: 40px;
+    display: inline-block;
+    min-height: 40px;
+    padding: 10px;
+   }
 
 
 
@@ -3763,6 +3794,63 @@ padding: 5px 15px;
 .advertise h2 {
     font-size: 24px;
 }
+.directory h3 {
+}
+.event-tab .d-box {
+    padding: 15px;
+    min-width: 250px;
+}
+.advertise.event-single h1{
+	font-size: 24px;
+}
+.april-9{
+	font-size: 24px;
+}
+.subscribe-video.m-app {
+    margin-top: 30px;
+}
+.discription h5 {
+    font-size: 18px;
+}
+.discription-box{
+	margin-bottom: 30px;
+}
+.discription .d-social {
+    display: block;
+    text-align: center;
+    float: none;
+    margin-top: 10px;
+}
+.discription h6 .img-fluid {
+      display: block;
+    	margin: 10px auto;
+}
+.discription h6{
+	text-align: center;
+}
+.discription-box.two p{
+	text-align: center;
+}
+
+.discription-box .d-ul{
+	padding-left: 30px;
+}
+.d-box{
+	min-width: 250px;
+}
+
+.i-box h4{
+	font-size: 18px;
+}
+.i-box .btn-primary{
+	width: 100%;
+}
+
+
+
+
+
+
 
 }
 
