@@ -3015,15 +3015,144 @@ margin-bottom: 20px;
     min-height: 40px;
     padding: 10px;
    }
+.industry-leader h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #756D98;
+	margin-bottom: 30px;
+}
 
+.industry-leader p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+}
 
+.subscribe-now{
+	background: #ECECF5;
+	border-radius: 16px;
+	padding: 20px;
+}
 
+.subscribe-now h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #50CDD0;
+}
 
+.subscribe-now p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+}
+.sponsors {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+}
+.sponsors .owl-slider{
+	max-width: 70%;
+	margin: 0 auto;
+}
+.sponsors .owl-carousel .owl-nav button.owl-prev::before{
+    font-family: fontawesome;
+    left: -64px;
+	top: -1px;
+	background: #e5e5e5;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	font-size: 10px;
+	border-radius: 25px;
+}
+.sponsors .owl-carousel .owl-nav button.owl-next::before {
+    font-family: fontawesome;
+    left: 64px;
+	top: -1px;
+	background: #e5e5e5;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	font-size: 10px;
+	border-radius: 25px;
+}
+.source-box {
+    background: #ECECF5;
+    padding: 30px;
+    border-radius: 25px;
+}
 
+.source-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+}
 
+.stacks-bowers span{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+	margin-left: 20px;
+}
 
+.stacks-bowers img{
+	border-radius: 10px;
+}
+.tag1.w-color{
+	background: #f7f7f7;
+}
 
+.user-pic{
+	padding: 5px;
+	background: #e5e5e5;
+	display: inline-block;
+	border-radius: 100%;
+}
+.user-name{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+	margin-left: 15px;
+	display: inline-block;
+}
 
+.post-date{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: right;
+	color: #9994B1;
+}
+
+.advertise-form p.message-para{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+	margin-top: 20px;
+}
+
+.comment-box form{
+	width: 50%;
+}
 
 
 @media only screen and (min-width: 1920px) 
@@ -3846,7 +3975,9 @@ padding: 5px 15px;
 	width: 100%;
 }
 
-
+.comment-box form{
+	width: 100%;
+}
 
 
 
