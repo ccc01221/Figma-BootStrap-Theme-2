@@ -3154,6 +3154,137 @@ margin-bottom: 20px;
 	width: 50%;
 }
 
+.us-coin-box h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #756D98;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.us-coin-box{
+	background: #ececf5;
+	padding: 20px;
+	border-radius: 16px;
+	text-align: center;
+}
+.us-coin-box img{
+    max-width: 100px;
+}
+.us-coin-main{
+	padding: 30px 0;
+}
+
+.coin-worth{
+	background: #ECECF5;
+	border-radius: 16px;
+	padding: 30px 100px;
+	margin-bottom: 30px;
+}
+
+.coin-worth h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+.coin-worth h4{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+}
+.coin-worth p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 124%;
+	color: #291C64;
+}
+
+.values-box{
+	background: #FFFFFF;
+border-radius: 16px 16px 0px 0px;
+padding: 30px;
+}
+
+.values-box h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+
+.values-footer{
+	background: #ECECF5;
+	border-radius: 0px 0px 16px 16px;
+	padding: 22px;
+	width: 100%;
+	display: block;
+	margin-bottom: 30px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64;
+}
+
+.values-footer:focus, .values-footer:hover{
+	color: #291C64;
+}
+
+.values-footer span{
+    float: right;
+}
+
+.tag-box .tag1.tag-blue{
+	background: rgba(80, 205, 208, 0.1);
+	color: #50CDD0;
+}
+
+.legal{
+	background: #291C64;
+	border-radius: 16px;
+	padding: 50px 100px;
+	margin-bottom: 30px;
+}
+
+.legal h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #F6F7FB;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.legal p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #F6F7FB;
+}
+.legal p a{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	color: #50CDD0;
+}
+
+
+
 
 @media only screen and (min-width: 1920px) 
 {
