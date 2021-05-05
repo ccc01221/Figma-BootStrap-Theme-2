@@ -3282,6 +3282,388 @@ padding: 30px;
 	line-height: 150%;
 	color: #50CDD0;
 }
+.buffalo-icon img {
+    max-width: 100px;
+}
+
+.buffalo-icon a {
+    background: rgba(79, 68, 126, .7);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 7px;
+    margin-right: 15px;
+}
+.us-buffalo-main{
+	background: #291C64;
+	padding: 50px 0;
+}
+.buffalo-ul {
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+.buffalo-ul li{
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 124%;
+	color: #fff;
+}
+.buffalo-ul li a{
+color: #50CDD0;
+}
+
+.us-buffalo-main h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #FFFFFF;
+	margin-bottom: 8px;
+}
+
+.buffalo-values .values-box{
+	border-radius: 16px;
+}
+
+.buffalo-values .blue-box{
+	background: #50CDD0;
+}
+.buffalo-values .grey-box{
+	background: #ECECF5;
+}
+.buffalo-values .dark-blue{
+	background: #291C64;
+}
+.buffalo-values .blue-box h4{
+	color: #fff;
+}
+
+.buffalo-values .blue-box .tag-box .tag1.tag-blue {
+    background: rgba(130, 225, 227, 0.5);
+    color: #fff;
+}
+
+.blue-box .btn-primary{
+	background: #ECECF5;
+	color: #291C64;
+}
+.buffalo-values .dark-blue h4{
+	color: #fff;
+}
+
+.buffalo-values .dark-blue .tag-box .tag1.tag-blue {
+    background: rgba(130, 225, 227, 0.5);
+    color: #fff;
+}
+
+
+
+.type-coin{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: #291C64;
+	padding: 7px 15px;
+	background: #fff;
+	border-radius: 100px;
+	float: right;
+	margin: 5px;
+}
+
+.type-coin:focus,.type-coin:hover{
+	color: #291C64;
+}
+.dark-blue .d-ul li span {
+    background: #F6F7FB;
+    }
+
+.sponsors.b-slide {
+    background: transparent;
+    padding: 30px;
+}
+
+.b-slide a{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64;
+	padding: 10px 20px;
+	border:1px solid #ececf5;
+	border-radius: 8px;
+	display: inline-block;
+	white-space: nowrap;
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+.b-slide a.active, .b-slide a:hover, .b-slide a:focus{
+	color: #fff;
+	background:#50CDD0; 
+	border:1px solid #50CDD0;
+}
+
+.cac-box {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cac-box-icon img {
+    max-width: 150px;
+}
+.cac-box-icon {
+    text-align: center;
+    position: relative;
+}
+.cac-box-icon .cac-logo{
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+.cac-box h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	text-align: center;
+	color: #291C64;
+	margin: 15px 0;
+}
+
+.cpg-grey-box{
+	background: #ECECF5;
+	border-radius: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #291C64;
+	padding: 10px;
+}
+
+.cac-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+	text-align: center;
+	color: #756D98;
+	margin: 15px 0;
+}
+
+.btn-sign-in{
+	background: #291C64;
+	border-radius: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #F6F7FB;
+	padding: 10px;
+	width: 100%;
+	display: inline-block;
+}
+.btn-view{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 170%;
+	color: #756D98;
+	display: block;
+	padding: 15px 0 0 0;
+	text-align: left;
+	border-top: 1px solid #ECECF5;
+	margin-top: 15px;
+}
+.btn-view span{
+	float: right;
+}
+.btn-view:hover{
+color: #756D98; 
+}
+
+
+.cac-box.blue-box{
+	background: #50CDD0;
+}  
+
+.cac-box.blue-box h4{
+	color: #fff;
+	text-align: left;
+}
+.cac-box.blue-box h5{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #FFFFFF;
+	text-align:left;
+	margin-bottom: 25px;
+	margin-top: 16px;
+}
+
+.cac-box.blue-box .btn-primary{
+	background: #fff;
+	color:#50CDD0; 
+}
+.btn-bg{
+	background-size: contain;
+	background-position: center center;
+	min-height: 50px;
+	line-height: 50px;
+	background-repeat: no-repeat; 
+}
+.btn-bg span{
+	color: #50CDD0;
+}
+
+.mh-350{
+	min-height: 363px;
+}
+
+.subscription-required {
+    padding: 100px;
+    background: url(../images/s-r.png) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	border-radius: 16px;
+}
+.subscription-required:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(41, 28, 100, .3);
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	border-radius: 16px;
+} 
+
+.subscription-required h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #FFFFFF;
+}
+
+.subscription-required p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+
+.btn-white {
+    background: #fff;
+    border-radius: 18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    display: inline-block;
+    text-align: center;
+    color: #50CDD0;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: none;
+    margin-right: 0 10px;  
+}
+
+.bg-white{
+	padding: 20px;
+	background: #fff;
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+
+.font-32{
+	font-size: 32px;
+	font-weight: normal;
+}
+.heritage-box h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+	text-align: left;
+}
+
+.heritage-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #756D98;
+	text-align: left;
+}
+
+.price-box{
+	background: #F6F7FB;
+	border-radius: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	text-align: center;
+	color: #50CDD0;
+	line-height: 70px;
+	height: 70px;
+}
+.heritage-box{
+	margin-bottom: 15px;
+}
+
+.coin-worth .pagination li a{
+	border-color: #BFBDCB;
+}
+
+.coin-worth .show-article a{
+	border-color: #BFBDCB;
+}
+.coin-worth .pagination li a.active {
+    background: #BFBDCB;
+}
+
+.mh-50{
+    min-height: 50px;
+    line-height: 50px;
+}
+.after-none:after{
+	display: none;
+}
+
+.page-list a {
+    color: #291C64;
+    font-size: 16px;
+    display: inline-block;
+    margin: 5px 0;
+    border-bottom: 1px solid #291C64;
+    text-decoration: none;
+    transition: all .5s;
+}
+.page-list a:hover, .page-list a:focus{
+		border-color: #50CDD0;
+		color: #50CDD0;
+}  
 
 
 
