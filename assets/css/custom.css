@@ -974,7 +974,7 @@ text-decoration: none;
 }
 		
 .textbox.form-control {
-    border-radius: 15px;
+    border-radius: 25px;
     padding-left: 40px;
 }
 .search-form {
@@ -3202,6 +3202,14 @@ margin-bottom: 20px;
 	line-height: 124%;
 	color: #291C64;
 }
+.coin-worth .bg-white h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+	margin-top: 20px;
+}
 .coin-worth p{
 	font-style: normal;
 	font-weight: normal;
@@ -3927,8 +3935,25 @@ color: #756D98;
 {
 	display: none;
 }
-
-
+.directory.us-coin  h3{
+	margin-bottom: 15px;
+}
+ h4.us-coin-h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	text-align: center;
+	color: #756D98;
+}
+p.us-coin-p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #756D98;
+}
 
 
 @media only screen and (min-width: 1920px) 
@@ -4866,8 +4891,100 @@ padding: 5px 15px;
 .our-publication .cpg-slider .owl-carousel .owl-nav button.owl-next::before{
 	right: 0px;
 }
+.directory.us-coin h3 {
+    text-align: center;
+}
+h4.us-coin-h4{
+	font-size: 24px;
+}
+.coin-worth {
+    padding: 30px;
+}
+.directory.us-coin .coin-worth  h3 {
+    text-align: left;
+}
+.coin-worth h4{
+	font-size: 24px;
+}
+.values-box h4{
+	font-size: 19px;
+}
+.legal {
+    padding: 30px;
+}
+.directory.us-coin .legal h3 {
+    text-align: left;
+}
+.us-buffalo-main h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
 
+.buffalo-ul{
+	text-align: center;
+	margin-top: 15px;
+}
 
+.buffalo-ul li{
+	font-size: 24px;
+}
+
+.buffalo-icon img {
+    max-width: 200px;
+}
+.buffalo-icon a{
+	vertical-align: top;
+}
+.toggle-div{
+	display: none;
+}
+
+.b-slide a {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.b-slide .owl-carousel .owl-nav {
+    top: 31%;
+}
+
+.cac-box.blue-box h4 {
+    text-align: center;
+}
+.cac-box.blue-box h5 {
+    text-align: center;
+}
+
+.mh-350 {
+    min-height: auto;
+}
+
+.subscription-required {
+    min-height: 200px;
+    padding: 0px;
+}
+
+.subscription-required *{
+	display: none;
+}
+.subscription-mobile{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.subscription-mobile h4{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+.coin-worth .bg-white h4{
+	font-size: 18px;
+}
+.heritage-box img{
+	margin-bottom: 15px;
+}
 
 
 
