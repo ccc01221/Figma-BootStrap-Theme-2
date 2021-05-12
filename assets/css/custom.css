@@ -1021,7 +1021,9 @@ padding: 5px 10px;
 display: inline-block;
 margin-top: 10px;
 }
-
+.space-50 {
+    min-height: 44px;
+}
 .issue-btn:hover, .issue-btn:focus{
 	color: #291C64;
 	text-decoration: none;
@@ -3710,7 +3712,7 @@ color: #756D98;
 	padding: 50px 0;
 	background: #f6f7fb url(../images/coin-values-bg.png) no-repeat;
 	background-position: right top;
-	min-height: 450px;
+	min-height: 500px;
 	background-size: contain;
 }
 
@@ -3761,7 +3763,15 @@ color: #756D98;
 	color: #756D98;
 	margin-bottom: 50px;
 }
-
+.issue-list h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #291C64;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 .publication-box{
     background: #ECECF5;
     border-radius: 16px;
