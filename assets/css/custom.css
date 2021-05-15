@@ -3980,6 +3980,168 @@ p.us-coin-p {
     min-width: 200px;
 }
 
+.advertise-left > p.membership-para{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #756D98;
+}
+
+.cdnx h4{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+	margin-bottom: 24px;
+}
+.cdnx p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #291C64;
+	margin-bottom: 30px;
+}
+.cdnx h5{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 132%;
+	color: #756D98;
+
+}
+.cdnx h5 b{
+	color: #291C64;
+}
+.sell-better{
+	background-color: #f6f7fb;
+	padding: 50px 0;
+}
+.sell-box{
+background: #ECECF5;
+border-radius: 24px;
+position: relative;
+overflow: hidden;
+padding: 0 120px 0 0;
+}
+.sell-box img{
+	position: relative;
+	bottom: -25px;
+	left: -50px;
+}
+
+.sell-box h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+	margin-bottom: 20px;
+}
+.sell-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+.cdn-seller{
+	background-color: #f6f7fb;
+	padding: 50px 0;
+}
+.cdn-seller h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	color: #291C64;
+}
+.cdn-seller p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+}
+
+.cdn-seller .camera-ready{
+	padding: 30px 50px;
+}
+.cdn-seller .camera-ready ul li{
+	margin-bottom: 15px;
+}
+.cdn-benefits, .cdn-pledge{
+	background-color: #f6f7fb;
+	padding: 50px 0;
+}
+.cdn-benefits h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 124%;
+	text-align: center;
+	color: #291C64;
+}
+.cdn-box{
+	padding:24px;
+	background: #ECECF5;
+	border-radius: 16px; 
+}
+
+.cdn-box h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+	margin-bottom: 15px;
+}
+
+.cdn-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #291C64;
+	margin-bottom: 0px;
+}
+.mh-200{
+	min-height: 205px;
+}
+.mh-280{
+	min-height: 280px;
+}
+.coming-soon{
+	padding:50px 60px;
+	background: #ECECF5;
+	border-radius: 16px; 
+}
+
+.subscribe2 h2{
+	font-size: 48px;
+}
+.cpg h1 b{
+		color: #291C64;
+}
+
+.both-side{
+	padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
