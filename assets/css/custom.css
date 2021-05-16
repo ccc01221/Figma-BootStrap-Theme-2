@@ -5220,6 +5220,67 @@ h4.us-coin-h4{
     min-height: auto;
 }
 
+
+.advertise.cdnexchange {
+    background-image: url(../images/add-bg.png);
+    background-position: bottom right;
+    background-size: 300px;
+}
+
+.cdnexchange .subscribe-video.m-app {
+    margin-top: 40px;
+}
+.cdnx {
+    margin-top: 50px;
+}
+.discription .cdnx h5 {
+    font-size: 24px;
+}
+.sell-box {
+    padding: 0 32px 0 20px;
+}
+.sell-box img {
+    position: relative;
+    bottom: -0px;
+    left: -50px;
+}
+.sell-box h3{
+	margin-top: 30px;
+}
+.cdn-seller .camera-ready {
+    padding: 30px;
+}
+
+.cdn-box {
+    padding: 24px;
+    background: #ECECF5;
+    border-radius: 16px;
+    min-width: 260px;
+}
+.coming-soon {
+    padding: 24px;
+    background: #ECECF5;
+    border-radius: 16px;
+}
+.advertise.subscribe2 h1{
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+.advertise.subscribe2 h2 {
+    font-size: 32px;
+
+}
+
+.advertise.subscribe2 {
+    background-image: url(../images/add-bg.png);
+    background-position: bottom right;
+    background-size: 500px;
+}
+
+
+
+
+
 }
 
 @media only screen and (max-width: 320px){
