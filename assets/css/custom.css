@@ -13,9 +13,6 @@ h1, h2, h3, h4, h5, h6{
 h4{
 	 color: #291C64;
 }
-
-
-
 .desktop-header .nav-list {
     padding: 0;
     padding-left: 10px;
@@ -4168,10 +4165,11 @@ padding: 0 120px 0 0;
 .both-side{
 	padding: 100px 0;
 }
-
 .space-650{
 	min-height: 650px;
 }
+
+
 
 
 
@@ -4479,6 +4477,9 @@ padding: 0 120px 0 0;
 }
 .login {
     margin-top: 50px;
+}
+.mobile-header .nav-list.list-more{
+	display: none;
 }
 .mobile-header .nav-list.list-more{
 	display: none;
