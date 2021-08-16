@@ -375,6 +375,16 @@ box-shadow: none;
 	line-height: 24px;
 	color: #1E134E;
 }
+.account__form select.form-control{
+ 	height: calc(2.2em + .75rem + 2px) !important;
+    border: 1px solid #ECECF5 !important;
+	border-radius: 18px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px !important;
+	line-height: 24px;
+	color: #1E134E;
+}
 .account__form  label{
 	font-style: normal;
 	font-weight: bold;
@@ -4171,17 +4181,87 @@ padding: 0 120px 0 0;
 
 
 
+/*******CART CSS**********/
 
+.cart-table {
+    background: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    min-height: 340px;
+}
+.table-header {
+    background: #ECECF5;
+    padding: 15px;
+    border-radius: 8px;
+}
+.table-body {
+    padding: 15px 30px;
+}
+.table-header.blue-bg{
+	color: #fff;
+	background: #291C64;
+}
+.row.table-row {
+    padding: 12px;
+    background: #F6F7FB;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.close-icon {
+    background: #ECECF5;
+    width: 32px;
+    border-radius: 50%;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 31px;
+    color: #291C64;
+}
+.close-icon img{
+	max-width: 18px;
+}
+.form-box.account__form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
 
+.form-box h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 132%;
+	color: #291C64;
+	text-align: left;
+}
 
+.form-box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #756D98;
+}
 
+.form-box p.font-dark{
+	color: #291C64;
+}
+.del-icon1 {
+    vertical-align: top;
+    margin-left: 30px;
+}
 
+.bottom-para {
+    margin: 0 auto;
+    max-width: 600px;
+}
 
-
-
-
-
-
+.font-14{
+	font-size: 14px;
+}
+.color-theme {
+    color: #50CDD0;
+}
 
 
 
@@ -5332,8 +5412,35 @@ h4.us-coin-h4{
 }
 
 
+/******CART CSS ********/
 
 
+.cart-table{
+	padding: 0px;
+	min-height: auto;
+	font-size: 14px;
+}
+.table-body {
+    padding: 0 15px 0 10px;
+    position: relative;
+}
+.row.table-row {
+    background: #ECECF5;
+    padding: 15px 5px;
+    }
+.close-icon {
+    top: -81px;
+    position: absolute;
+    right: 5px;
+    background: #fff;
+}
+.table-body b {
+    min-width: 65px;
+}
+.del-icon1 {
+    vertical-align: top;
+    margin-left: 0;
+}
 
 }
 
