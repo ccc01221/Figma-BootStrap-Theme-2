@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Checkout Loged In- Greensheet - CPG - CAC</title>
+  <title>Checkout - Greensheet - CPG - CAC</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Web Fonts  -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
@@ -13,11 +13,11 @@
       rel="stylesheet">
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4assets/owl.carousel.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="assets/images/favicon.jpg">
+  <link rel="shortcut icon" href="../assets/images/favicon.jpg">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/css/theme-elements.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/theme-elements.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
 
 </head>
 
@@ -27,7 +27,7 @@
    <div class="row">
      <div class="col-md-2">
          <a class="logo"  href="/">
-        <img alt="CDN Publishing" src="assets/images/greysheet-logo-color-2020.svg"class="img-fluid">
+        <img alt="CDN Publishing" src="../assets/images/greysheet-logo-color-2020.svg"class="img-fluid">
                   </a>
      </div>
      <div class="col-md-6">
@@ -65,9 +65,9 @@
      <div class="col-md-4">
         <div class="header-right">
           <span class="v-line"> | </span>
-        <a href="login.html" class="user-login"><img src="assets/images/02.png" alt="user"> Log In</a>
+        <a href="login.html" class="user-login"><img src="../assets/images/02.png" alt="user"> Log In</a>
         <a class="bag" href="/">
-      <img alt="CDN Publishing" src="assets/images/bag.png"class="img-fluid">
+      <img alt="CDN Publishing" src="../assets/images/bag.png"class="img-fluid">
       </a> 
         <a href="#" class="btn-primary btn-subscribe">Subscribe</a>
       </div> 
@@ -83,12 +83,12 @@
       <div class="row justify-content-center">
         <div class="col-7">
           <a class="logo"  href="/">
-        <img alt="CDN Publishing" src="assets/images/greysheet-logo-color-2020.svg"class="img-fluid">
+        <img alt="CDN Publishing" src="../assets/images/greysheet-logo-color-2020.svg"class="img-fluid">
                   </a>
         </div>
         <div class="col-3 text-center">
         <a class="bag" href="/">
-      <img alt="CDN Publishing" src="assets/images/bag.png"class="img-fluid">
+      <img alt="CDN Publishing" src="../assets/images/bag.png"class="img-fluid">
       </a>  
         </div>
         <div class="col-2 t-menu">
@@ -117,7 +117,7 @@
       </li>
    </ul>
     <ul class="nav-list list-more">
-      <a href="javascript:void(0)" class="" id="list-less"><img src="assets/images/list-less.png" alt="list-back"></a>
+      <a href="javascript:void(0)" class="" id="list-less"><img src="../assets/images/list-less.png" alt="list-back"></a>
       <li class="nav-list-item"><a href="" class="nav-link">News</a></li>
       <li class="nav-list-item"><a href="" class="nav-link">News</a></li>
       <li class="nav-list-item">
@@ -128,7 +128,7 @@
    </ul>
 
     <div class="last-list">
-        <a href="login.html" class="user-login"><img src="assets/images/02.png" alt="user"> Log In</a>
+        <a href="login.html" class="user-login"><img src="../assets/images/02.png" alt="user"> Log In</a>
         <a href="#" class="btn-primary btn-subscribe">Subscribe</a>
       </div>  
   </nav>
@@ -265,16 +265,37 @@
             <form>
           <div class="form-box account__form">
             <h3 class="mb-2">Personal Information</h3>
-            <p class="mb-4">Want to use a different account? <a href="#" class="color-theme"><b>Log Out</b></a> </p>
+            <p class="mb-4">Enter your details or <a href="#" class="color-theme">Log In</a> to your account.</p>
 
-          
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+            <input type="text" id="fname" name="fname" class="form-control" required="">
+            <label class="form-control-placeholder" for="fname">Name</label>
+          </div>
+            </div>
+            <div class="col-sm-6 ">
+              <div class="form-group">
+            <input type="text" id="lname" name="lname" class="form-control" required="">
+            <label class="form-control-placeholder" for="lname">LastName</label>
+          </div>
+            </div>
+          </div>
            <div class="row">
-            <div class="col-sm-12">
-      
-           <p style="color: #291C64" class="mb-1">Name Lastname  |  name@gmail.com</p>
-       
+            <div class="col-sm-6">
+          <div class="form-group">
+            <input type="text" id="email" name="eamil" class="form-control" required="">
+            <label class="form-control-placeholder" for="email">Email Address</label>
+          </div>
         </div>
-         
+          <div class="col-sm-6">
+          <div class="form-group p-relative mb-3">
+            <span class="eye-icon" id="eye" style="background-image: url(../assets/images/eye-icon.png);"></span>
+            <input type="password" id="password" class="form-control" required="">
+            <label class="form-control-placeholder" for="password">Password</label>
+            
+          </div>
+        </div>
       </div>
             
            </div>
@@ -418,7 +439,7 @@
           
             <div class="row">
               <div class="col-sm-3">
-                <img src="assets/images/mastercard1.png" alt="mastercard1"> <b>Debit</b>
+                <img src="../assets/images/mastercard1.png" alt="mastercard1"> <b>Debit</b>
               </div>
               <div class="col-sm-6 col-9">
                 <p class="mb-1 font-dark"><b> ·  ·  ·  · 3445</b></p>
@@ -430,7 +451,7 @@
                 <label class="custom-control-label" for="customRadioInline4"></label>
               </div>
               <a href="#" class="del-icon1">
-                <img src="assets/images/del.png" alt="del" class="img-fluid">
+                <img src="../assets/images/del.png" alt="del" class="img-fluid">
               </a>
               </div>
             </div>
@@ -438,7 +459,7 @@
 
             <div class="row">
               <div class="col-sm-3">
-                <img src="assets/images/mastercard1.png" alt="mastercard1"> <b>Debit</b>
+                <img src="../assets/images/mastercard1.png" alt="mastercard1"> <b>Debit</b>
               </div>
               <div class="col-sm-6 col-9">
                 <p class="mb-1 font-dark"><b> ·  ·  ·  · 3445</b></p>
@@ -450,7 +471,7 @@
                 <label class="custom-control-label" for="customRadioInline5"></label>
               </div>
               <a href="#" class="del-icon1">
-                <img src="assets/images/del.png" alt="del" class="img-fluid">
+                <img src="../assets/images/del.png" alt="del" class="img-fluid">
               </a>
               </div>
             </div>
@@ -458,7 +479,7 @@
 
             <div class="row">
               <div class="col-sm-3">
-                <img src="assets/images/mastercard1.png" alt="mastercard1"> <b>Debit</b>
+                <img src="../assets/images/mastercard1.png" alt="mastercard1"> <b>Debit</b>
               </div>
               <div class="col-sm-6 col-9">
                 <p class="mb-1 font-dark"><b> ·  ·  ·  · 3445</b></p>
@@ -470,7 +491,7 @@
                 <label class="custom-control-label" for="customRadioInline6"></label>
               </div>
               <a href="#" class="del-icon1">
-                <img src="assets/images/del.png" alt="del" class="img-fluid">
+                <img src="../assets/images/del.png" alt="del" class="img-fluid">
               </a>
               </div>
             </div>
@@ -533,7 +554,7 @@
       </form>
           </div>
            <div class="col-sm-3">
-            <div class="cart-table  mt-5 mt-sm-0">
+            <div class="cart-table mt-5 mt-sm-0">
             
              <div class="table-body py-0 px-4">
              <div class="row table-row bg-transparent border-bottom  px-0 border-radius-0 mb-0">
@@ -542,7 +563,7 @@
               </div>
                <div class="row justify-content-center align-items-center table-row bg-transparent border-bottom  px-0 border-radius-0 mb-0">
                <div class="col-4 pr-0">
-                <img src="assets/images/s1.png" alt="s1" class="img-fluid">
+                <img src="../assets/images/s1.png" alt="s1" class="img-fluid">
                </div>
                 <div class="col-8 font-14">The Banknote Book: Yearly<br/>
                 Digital Access
@@ -599,7 +620,7 @@
         <div class="row ">
           <div class="col-md-3">
             <div class="footer-logo">
-              <img src="assets/images/greysheet-logo-white-2020.svg" alt="greysheet-logo-white-2020" class="img-fluid">
+              <img src="../assets/images/greysheet-logo-white-2020.svg" alt="greysheet-logo-white-2020" class="img-fluid">
             </div>
             <p>© Copyright 2021 CDN Publishing, LLC. All Rights Reserved.</p>
           </div>
